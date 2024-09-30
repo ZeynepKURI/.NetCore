@@ -1,4 +1,7 @@
 ﻿
+using Business.Concrete;
+using DataAccess.Concrete.InMemory;
+
 namespace ConsoleIU
 {
     class Program
@@ -6,7 +9,14 @@ namespace ConsoleIU
         static void Main(string[] args)
 
         {
-            Console.WriteLine("Hello, World!");
+
+            ProductManager programManager = new ProductManager(new InMemoryProductDal());
+            foreach (var product in programManager.GetAll())
+            {
+                Console.WriteLine(product.ProductName);
+            }
+
+  
         }
     }
 }

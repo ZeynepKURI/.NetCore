@@ -9,9 +9,16 @@
   <ItemGroup>
     <None Remove="Abstract\" />
     <None Remove="Concrete\" />
+    <None Remove="Concrete\InMemory\" />
+    <None Remove="Concrete\EntityFramework\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Abstract\" />
     <Folder Include="Concrete\" />
+    <Folder Include="Concrete\InMemory\" />
+    <Folder Include="Concrete\EntityFramework\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Entites\Entites.csproj" />
   </ItemGroup>
 </Project>

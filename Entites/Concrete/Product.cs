@@ -1,4 +1,6 @@
 ﻿using System;
+using Entites.Abstract;
+
 namespace Entites.Concrete
 {
 
@@ -6,7 +8,7 @@ namespace Entites.Concrete
 	//internal default yapar.
 
 
-	public class Product
+	public class Product:IEntity
 	{
 		public int ProductId { get; set; }
 

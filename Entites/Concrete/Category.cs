@@ -1,11 +1,15 @@
 ﻿using System;
+using Entites.Abstract;
+
 namespace Entites.Concrete
 {
-	public class Category
+
+	//Çıplak class kalmasın
+	public class Category:IEntity
 	{
-		public Category()
-		{
-		}
+		public int CategoryId { get; set; }
+
+		public string CategoryName { get; set; }
 	}
 }
 
