@@ -1,22 +1,26 @@
 ﻿<Properties StartupConfiguration="{9313A603-AB06-44F5-9637-6B86C98822FA}|Default">
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="DataAccess/Abstract/IProductDal.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DataAccess/Abstract/ICustomerDal.cs">
     <Files>
-      <File FileName="ConsoleUI/Program.cs" Line="18" Column="1" />
-      <File FileName="DataAccess/Abstract/IProductDal.cs" Line="1" Column="1" />
+      <File FileName="Business/Abstract/ICategoryDal.cs" Line="6" Column="58" />
+      <File FileName="Business/Abstract/IEntityRepository.cs" Line="1" Column="1" />
+      <File FileName="DataAccess/Abstract/IProductDal.cs" Line="7" Column="30" />
+      <File FileName="Entites/Concrete/Customer.cs" Line="15" Column="1" />
+      <File FileName="DataAccess/Abstract/ICustomerDal.cs" Line="9" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name=".NetCore">
             <Node name="Business" expanded="True">
-              <Node name="Concrete" expanded="True" />
+              <Node name="Abstract" expanded="True" />
             </Node>
-            <Node name="ConsoleUI" expanded="True" />
             <Node name="DataAccess" expanded="True">
-              <Node name="Abstract" expanded="True">
-                <Node name="IProductDal.cs" selected="True" />
-              </Node>
+              <Node name="Abstract" expanded="True" />
+            </Node>
+            <Node name="Entites" expanded="True">
+              <Node name="Abstract" expanded="True" />
+              <Node name="Concrete" expanded="True" />
             </Node>
           </Node>
         </State>

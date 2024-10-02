@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq.Expressions;
 using DataAccess.Abstract;
 using Entites.Concrete;
 
@@ -37,9 +38,19 @@ namespace DataAccess.Concrete.InMemory
             _products.Remove(product);
         }
 
+        public Product Get(Expression<Func<Product, bool>> filter)
+        {
+            throw new NotImplementedException();
+        }
+
         public List<Product> GetAll()
         {
             return _products;
+        }
+
+        public List<Product> GetAll(Expression<Func<Product, bool>> filter = null)
+        {
+            throw new NotImplementedException();
         }
 
         public List<Product> GetAllByCategory(int categoryId)
