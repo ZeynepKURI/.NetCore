@@ -1,7 +1,32 @@
 ﻿<Properties StartupConfiguration="{9313A603-AB06-44F5-9637-6B86C98822FA}|Default">
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.DataAccess FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.Business FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.ConsoleUI FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.Entites FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="DataAccess/Abstract/IProductDal.cs">
+    <Files>
+      <File FileName="ConsoleUI/Program.cs" Line="18" Column="1" />
+      <File FileName="DataAccess/Abstract/IProductDal.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name=".NetCore">
+            <Node name="Business" expanded="True">
+              <Node name="Concrete" expanded="True" />
+            </Node>
+            <Node name="ConsoleUI" expanded="True" />
+            <Node name="DataAccess" expanded="True">
+              <Node name="Abstract" expanded="True">
+                <Node name="IProductDal.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.ConsoleUI PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>
