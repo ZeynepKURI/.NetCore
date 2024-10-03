@@ -1,6 +1,11 @@
 ﻿<Properties StartupConfiguration="{9313A603-AB06-44F5-9637-6B86C98822FA}|Default">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.ConsoleUI PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.Workbench ActiveDocument="DataAccess/Concrete/EntityFramework/NorthwindContext.cs">
     <Files>
       <File FileName="DataAccess/Concrete/EntityFramework/EfProductDal.cs" />
@@ -11,20 +16,18 @@
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
-        <State name="__root__" />
-      </Pad>
-      <Pad Id="ClassPad">
         <State name="__root__">
-          <Node name=".NetCore" expanded="True" selected="True">
-            <Node name="Business" expanded="True" />
+          <Node name=".NetCore">
+            <Node name="DataAccess">
+              <Node name="Concrete">
+                <Node name="EntityFramework">
+                  <Node name="NorthwindContext.cs" selected="True" />
+                </Node>
+              </Node>
+            </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.ConsoleUI PreferredExecutionTarget="MonoDevelop.Default" />
-  <MultiItemStartupConfigurations />
 </Properties>
